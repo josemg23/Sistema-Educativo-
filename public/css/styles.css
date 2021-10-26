@@ -1,0 +1,184 @@
+.areadesign{
+ -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  background: #D6FCF3;
+  border-radius: 25px;
+box-shadow: 10px -10px 0px 5px rgba(232,37,47,0.49);
+  color: #555555;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 1em;
+  line-height: 1.4em;
+  padding: 5px 8px;
+  transition: all 1s;	
+	
+}
+.areadesign:focus {
+    background: none repeat scroll 0 0 #EAD5D6;
+    outline-width: 0;
+}
+.inputdesign{
+  background: #F2F2D8;
+  border-radius: 40px;
+  padding: 30px;
+box-shadow: 4px -4px 5px 5px rgba(158,150,47,0.49);
+}
+.ancho{
+	padding-bottom:50px;
+	padding-top:50px;
+}
+
+.inputcurrent{
+  background: #F2F2D8;
+  border-radius: 40px;
+ 
+box-shadow: 4px -4px 5px 5px rgba(158,150,47,0.49);
+}
+.gusano1{
+margin-top:140px;
+}
+.gusano2{
+margin-top: 65px;
+}
+.gusano3{
+margin-top: 25px;
+}
+.gusano4{
+margin-top: 10px;
+}
+.gusano5{
+margin-top: 40px;
+}
+.gusano6{
+margin-top: 90px;
+
+}
+.gusano7{
+margin-top: 380px;
+
+}
+.gusano8{
+margin-top: 340px;
+
+}
+.gusano9{
+margin-top: 300px;
+
+}
+.gusano10{
+margin-top: 250px;
+
+}
+.gusano11{
+margin-top: 150px;
+
+}
+.gusano12{
+margin-top: 50px;
+
+}
+.gusano13{
+margin-top: 70px;
+
+}.gusano14{
+margin-top: 170px;
+
+}.gusano15{
+margin-top: 250px;
+
+}.gusano16{
+margin-top: 300px;
+
+}.gusano17{
+margin-top: 360px;
+
+}.gusano18{
+margin-top: 450px;
+
+}
+.dragabling
+{
+  opacity: .7;
+  border-color: #0C54F7;
+  border: dotted;
+  background-color: rgba(178, 189, 178, 0.9);
+}
+.drag{
+  cursor: move;
+}
+.area{
+  background-color: #C2F5FA;
+}
+.area1{
+  background-color: #BDF7C0;
+}
+/*Downloaded from https://www.codeseek.co/arandaschimpf/crucigrama-vRgKZP */
+.container {
+  margin-top: 3vh;
+}
+
+.table-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+table {
+  border-collapse: collapse;
+  font-size: 18px;
+}
+
+td {
+  width: 36px;
+  height: 36px;
+  border: 1px solid black;
+  text-align: center;
+  position: relative;
+  text-transform: uppercase;
+  font-family: arial;
+}
+
+td.empty {
+  background: #ff9f55;
+}
+
+td.selected {
+  background: lightblue;
+}
+
+td.start {
+  cursor: pointer;  
+}
+
+td.start label {
+  position: absolute;
+  top: 0;
+  left: 2px;
+  text-align: left;
+  font-size: 10px;
+}
+
+td.start:hover {
+  background: #eee;
+}
+
+td.start.selected:hover {
+  background: #ddf;
+}
+
+.mensaje {
+  position: absolute;
+  color: white;
+  left: 25vw;
+  text-align: center;
+  border-radius: 8px;
+  padding: 10px;
+  width: 50vw;
+  z-index: 1000;
+  background: rgba(0, 0, 255, 0.9)
+}
+
+.mensaje button {
+  margin-top: 10px;
+}

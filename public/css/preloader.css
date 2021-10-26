@@ -1,0 +1,48 @@
+#preloader {
+    overflow: hidden;
+    background: linear-gradient(70deg,#DED0DD,#7DBAF9);
+
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999999;
+}
+
+.yummy-load{
+animation-name: yummy-load;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  height: 100px;
+
+   left: calc(50% - 40px);
+    position: relative;
+    top: calc(50% - 40px);
+    width: 100px;
+    padding: 8px;
+    z-index: 9;
+  -webkit-animation-name:yummy-load;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+
+}
+@-moz-keyframes yummy-load{  
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes yummy-load {  
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+   100% { opacity: 1.0; }
+}
+
+@keyframes yummy-load {  
+  0% { opacity: 1.0; }
+   50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
